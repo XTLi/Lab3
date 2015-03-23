@@ -29,9 +29,4 @@ public class PrimeFactorizationTest {
 	public void test_3() throws Exception {
 		assertEquals(list(3), generate(3));
 	}
-	
-	@Test
-	public void test_4() throws Exception {
-		assertEquals(list(2,2), generate(4));
-	}
 }
