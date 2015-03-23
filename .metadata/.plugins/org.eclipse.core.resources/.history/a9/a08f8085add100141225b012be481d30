@@ -9,9 +9,9 @@ import org.junit.Test;
 
 public class PrimeFactorizationTest {
 
-	private List<Integer> list(Integer...integers) {
+	private List<Integer> list() {
 		// TODO Auto-generated method stub
-		return Arrays.asList(integers);
+		return Arrays.asList();
 	}
 	
 	@Test
@@ -19,9 +19,5 @@ public class PrimeFactorizationTest {
 		assertEquals(list(), PrimeFactorization.generate(1));
 	}
 
-	@Test
-	public void test_2() throws Exception {
-		assertEquals(list(2), PrimeFactorization.generate(2));
-	}
 
 }
