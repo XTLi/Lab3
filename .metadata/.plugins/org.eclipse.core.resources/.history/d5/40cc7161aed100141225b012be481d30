@@ -1,7 +1,6 @@
 package primeFactorization;
 
 import static org.junit.Assert.*;
-import static primeFactorization.PrimeFactorization.generate;
 
 import java.util.Arrays;
 import java.util.List;
@@ -17,16 +16,12 @@ public class PrimeFactorizationTest {
 	
 	@Test
 	public void test_1() {
-		assertEquals(list(), generate(1));
+		assertEquals(list(), PrimeFactorization.generate(1));
 	}
 
 	@Test
 	public void test_2() throws Exception {
-		assertEquals(list(2), generate(2));
+		assertEquals(list(2), PrimeFactorization.generate(2));
 	}
 
-	@Test
-	public void test_3() throws Exception {
-		assertEquals(list(3), generate(3));
-	}
 }
