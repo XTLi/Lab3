@@ -7,12 +7,7 @@ public class PrimeGeneration {
 
 	public static List<Integer> generate(Integer inputNum) {
 		// TODO Auto-generated method stub
-		List<Integer> generatePrimes = new ArrayList<Integer>();
-		if(inputNum > 2)
-		{
-			generatePrimes.add(2);
-		}
-		return generatePrimes;
+		return new ArrayList<Integer>();
 	}
 
 }
