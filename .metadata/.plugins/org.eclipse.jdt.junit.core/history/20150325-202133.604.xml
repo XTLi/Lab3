@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PrimeGenerationTest" project="PrimeGeneration" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="primeGeneration.PrimeGenerationTest" time="0.0">
+    <testsuite name="[0]" time="0.0">
+      <testcase name="testPrimeGen[0]" classname="primeGeneration.PrimeGenerationTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[1]" time="0.0">
+      <testcase name="testPrimeGen[1]" classname="primeGeneration.PrimeGenerationTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[2]" time="0.0">
+      <testcase name="testPrimeGen[2]" classname="primeGeneration.PrimeGenerationTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[3]" time="0.0">
+      <testcase name="testPrimeGen[3]" classname="primeGeneration.PrimeGenerationTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[4]" time="0.0">
+      <testcase name="testPrimeGen[4]" classname="primeGeneration.PrimeGenerationTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[5]" time="0.0">
+      <testcase name="testPrimeGen[5]" classname="primeGeneration.PrimeGenerationTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[6]" time="0.0">
+      <testcase name="testPrimeGen[6]" classname="primeGeneration.PrimeGenerationTest" time="0.0"/>
+    </testsuite>
+  </testsuite>
+</testrun>
