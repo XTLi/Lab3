@@ -1,13 +1,12 @@
 package primeGeneration;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class PrimeGeneration {
 
 	public static List<Integer> generate(Integer inputNum) {
 		// TODO Auto-generated method stub
-		return new ArrayList<Integer>();
+		return null;
 	}
 
 }
