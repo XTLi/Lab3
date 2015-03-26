@@ -10,28 +10,9 @@ public class PrimeGeneration {
 		List<Integer> generatePrimes = new ArrayList<Integer>();
 		if(inputNum > 2)
 		{
-			int i = 2;
-			while(i < inputNum)
-			{
-				if(primeCheck(i) == true)
-				{
-					generatePrimes.add(i);
-				}
-				i ++;
-			}
+			generatePrimes.add(2);
 		}
 		return generatePrimes;
 	}
 
-	private static boolean primeCheck(Integer candidate) {
-		// TODO Auto-generated method stub
-		if(candidate == 2 || candidate == 3)
-		{
-			return true;
-		}
-		else
-		{
-			return false;
-		}
-	   }
 }
